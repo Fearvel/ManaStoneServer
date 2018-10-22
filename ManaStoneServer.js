@@ -28,11 +28,12 @@ https_server.listen(HttpsPort,() => console.log(GetStartInfo("[HTTPS]", HttpsPor
 app.post('/Activate', function (req, res) {
 
 });
-app.post('/CheckActivation', function (req, res) {
 
-});
 app.post('/Deactivate', function (req, res) {
 
+});
+app.post('/CheckActivation', function (req, res) {
+    res.end(serverTools.CreateSimpleAnswer(true));
 });
 
 function GetStartInfo(s, port) {
