@@ -1,0 +1,19 @@
+{
+  "CertPath":{
+    "key": "./testKey.pem",
+    "cert": "./testCert.pem"
+  },
+  "MySQLConnectionInformation":{
+    "host": "192.168.1.16",
+    "user": "DEV-MANASTONE-SERVER",
+    "password": "BeqK17LLvsUl2L65BcQI",
+    "database": "DEV-MANASTONE"
+  },
+  "ServerPort": "9060",
+  "ConfigVersion": "1.0.1.0",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+
+}

@@ -1,0 +1,13 @@
+{
+  "CertPath":{
+    "key": "./testKey.pem",
+    "cert": "./testCert.pem"
+  },
+  "MysqlConnectionInformation":{
+    "host": "localhost",
+    "user": "testuser",
+    "password": "testpassword",
+    "database": "FnLog"
+  },
+  "ServerPort": "9024"
+}
