@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as fs from 'fs';
 // @ts-ignore
 import * as config from './config.json';
