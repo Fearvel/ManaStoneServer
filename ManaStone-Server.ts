@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+/**
+ * Manastone DRM Server
+ * @author Andreas Schreiner
+ * @copyright Andreas Schreiner 2019
+ */
 import * as fs from 'fs';
 // @ts-ignore
 import * as config from './config.json';

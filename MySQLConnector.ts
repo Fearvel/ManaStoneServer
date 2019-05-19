@@ -1,3 +1,8 @@
+/**
+ * Connection Class for MySql Connections
+ * @author Andreas Schreiner
+ * @copyright Andreas Schreiner 2019
+ */
 import * as mysql from 'mysql';
 // @ts-ignore
 import * as config from './config.json';
@@ -26,6 +31,7 @@ export namespace sql {
 
         /**
          * Constructor
+         * Creates the connection
          */
         constructor() {
             this.connection = mysql.createConnection(this.MySQLConfig);
@@ -34,8 +40,8 @@ export namespace sql {
         /**
          * Unused query function
          * Stays here as an example
-         * @param sql
-         * @param args
+         * @param sql sql string
+         * @param args argument array for prepared statements
          */
         private query(sql, args) {
             return new Promise((resolve, reject) => {
